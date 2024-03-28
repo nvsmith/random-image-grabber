@@ -3,13 +3,14 @@
 }
 
 body {
+    color: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-size: 16px;
-    font-family: "Roboto", sans-serif;
+    font-family: system-ui, sans-serif;
     text-align: center;
-    background-color: #e3e2e7;
+    background-color: rgb(25, 25, 25);
 }
 
 .main {
@@ -34,10 +35,17 @@ h4 {
     font-weight: 100;
 }
 
+a {
+    color: #fff;
+}
+a:hover {
+    color: royalblue;
+}
+
 img {
     max-width: 100%;
     height: auto;
-    border: 2px solid black;
+    border: 2px solid rgb(25, 25, 25);
     border-radius: 5rem;
 }
 
@@ -45,7 +53,7 @@ button {
     margin: 1.5em auto;
     padding: 20px;
     border-radius: 40px;
-    background-color: royalblue;
+    background-color: rgb(82, 119, 231);
     color: #fff;
     border: none;
     font-size: 16px;
@@ -54,15 +62,7 @@ button {
 }
 
 button:hover {
-    margin: 1.5em auto;
-    padding: 20px;
-    border-radius: 40px;
-    background-color: rgb(44, 77, 179);
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    font-family: "Montserrat";
-    font-weight: bold;
+    background-color: royalblue;
     cursor: pointer;
 }
 
